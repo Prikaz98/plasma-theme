@@ -60,7 +60,7 @@
     (subtle         '("#908caa" "#908caa" "brightblack" ))
     (text           '("#e4e4ef" "#e4e4ef" "brightblack" ))
     (love           '("#ce2f2c" "#ce2f2c" "red"         ))
-    (gold           '("#e7bd73" "#e7bd73" "white"       ))
+    (cookie         '("#e7bd73" "#e7bd73" "white"       ))
     (yellow         '("#fdff28" "#fdff28" "white"       ))
     (rose           '("#bc5485" "#bc5485" "white"       ))
     (salt           '("#4b7f90" "#4b7f90" "white"       ))
@@ -86,7 +86,7 @@
     ;; bg and base8 is a starker fg. For example, if bg is light grey and fg is
     ;; dark grey, base0 should be white and base8 should be black.
     (base0          yellow)
-    (base1          gold)
+    (base1          cookie)
     (base2          olive)
     (base3          green)
     (base4          highlightL)
@@ -96,10 +96,10 @@
     (base8          base)
     (grey           muted)
     (red            love)
-    (orange         gold)
+    (orange         cookie)
     (green          muted)
-    (teal           gold)
-    (yellow         gold)
+    (teal           cookie)
+    (yellow         cookie)
     (blue           salt)
     (dark-blue      sea)
     (magenta        rose)
@@ -117,10 +117,10 @@
     (comments       (if doom-plasma-dark-brighter-comments green olive))
     (doc-comments   (if doom-plasma-dark-brighter-comments green olive))
 
-    (builtin        gold)
-    (constants      highlightL)
-    (functions      gold)
-    (keywords       gold)
+    (builtin        cookie)
+    (constants      cookie)
+    (functions      cookie)
+    (keywords       cookie)
     (methods        highlightL)
     (numbers        highlightL)
     (operators      highlightL)
@@ -130,11 +130,11 @@
 
     (error          love)
     (success        olive)
-    (warning        gold)
+    (warning        cookie)
 
     (vc-added       sea)
     (vc-deleted     love)
-    (vc-modified    gold)
+    (vc-modified    cookie)
 
     ;; Other categories
     ;; Modeline
@@ -167,7 +167,7 @@
 
     ;; Line numbers
     ((line-number &override) :foreground rose :background base)
-    ((line-number-current-line &override) :foreground gold)
+    ((line-number-current-line &override) :foreground cookie)
 
     ;; Mode line
     (mode-line
@@ -203,7 +203,7 @@
     (ivy-current-match :background overlay :distant-foreground fg)
     (ivy-minibuffer-match-face-1 :foreground salt :background nil :weight 'bold)
     (ivy-minibuffer-match-face-2 :foreground rose :background nil :weight 'bold)
-    (ivy-minibuffer-match-face-3 :foreground gold :background nil :weight 'bold)
+    (ivy-minibuffer-match-face-3 :foreground cookie :background nil :weight 'bold)
     (ivy-minibuffer-match-face-4 :foreground rose :background nil :weight 'bold)
     (ivy-minibuffer-match-highlight :foreground magenta :weight 'bold)
     (ivy-posframe :background modeline-bg-alt)
@@ -218,7 +218,7 @@
     (org-block-background :background (doom-blend yellow bg 0.04))
     (org-block-begin-line :background (doom-blend yellow bg 0.08) :foreground comments :extend t)
     (org-block-end-line :background (doom-blend yellow bg 0.08) :foreground comments :extend t)
-    (org-level-1 :foreground gold)
+    (org-level-1 :foreground cookie)
     (org-level-2 :foreground salt)
     (org-level-3 :foreground sea)
     (org-level-4 :foreground highlightL)
