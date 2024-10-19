@@ -6,3 +6,5 @@
 [[./plasma-theme.png][plasma-theme.png]]
 * Motivation
 I like [[https://www.plazma.rs/en][Plasma]] cookies and I really like thier purple design.
+* TODOS
+- [ ] Do light version
