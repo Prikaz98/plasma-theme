@@ -60,7 +60,8 @@
     (subtle         '("#908caa" "#908caa" "brightblack" ))
     (text           '("#e4e4ef" "#e4e4ef" "brightblack" ))
     (love           '("#ce2f2c" "#ce2f2c" "red"         ))
-    (cookie         '("#e7bd73" "#e7bd73" "white"       ))
+    (gold           '("#e7bd73" "#e7bd73" "white"       ))
+    (orange         '("#efae2e" "#efae2e" "white"       ))
     (yellow         '("#fdff28" "#fdff28" "white"       ))
     (rose           '("#bc5485" "#bc5485" "white"       ))
     (salt           '("#4b7f90" "#4b7f90" "white"       ))
@@ -85,42 +86,41 @@
     ;; These should represent a spectrum from bg to fg, where base0 is a starker
     ;; bg and base8 is a starker fg. For example, if bg is light grey and fg is
     ;; dark grey, base0 should be white and base8 should be black.
-    (base0          yellow)
-    (base1          cookie)
+    (base0          surface)
+    (base1          muted)
     (base2          olive)
-    (base3          green)
+    (base3          surface)
     (base4          highlightL)
     (base5          highlightH)
     (base6          highlightM)
     (base7          overlay)
     (base8          base)
-    (grey           highlightH)
+    (grey           muted)
     (red            love)
-    (orange         cookie)
-    (green          olive)
-    (teal           cookie)
-    (yellow         cookie)
-    (blue           sea)
-    (dark-blue      salt)
+    (green          grass)
+    (teal           sea)
+    (yellow         gold)
+    (blue           salt)
+    (dark-blue      sea)
     (magenta        rose)
     (violet         rose)
-    (cyan           salt)
-    (dark-cyan      salt)
+    (cyan           sea)
+    (dark-cyan      sea)
     ;; Variables required by doom theme ends here
 
     ;; Required face categories for syntax highlighting
     (highlight      yellow)   ; cursor
-    (selection      base)     ; can't figure out where this is used
+    (selection      base)
     (region         surface)  ; visual selection
     (vertical-bar   surface)  ; window split
 
     (comments       (if doom-plasma-dark-brighter-comments green olive))
     (doc-comments   (if doom-plasma-dark-brighter-comments green olive))
 
-    (builtin        cookie)
-    (constants      cookie)
-    (functions      cookie)
-    (keywords       cookie)
+    (builtin        gold)
+    (constants      highlightL)
+    (functions      gold)
+    (keywords       gold)
     (methods        highlightL)
     (numbers        highlightL)
     (operators      highlightL)
@@ -130,11 +130,11 @@
 
     (error          love)
     (success        olive)
-    (warning        cookie)
+    (warning        gold)
 
-    (vc-added       sea)
+    (vc-added       grass)
     (vc-deleted     love)
-    (vc-modified    cookie)
+    (vc-modified    gold)
 
     ;; Other categories
     ;; Modeline
@@ -167,7 +167,7 @@
 
     ;; Line numbers
     ((line-number &override) :foreground rose :background base)
-    ((line-number-current-line &override) :foreground cookie)
+    ((line-number-current-line &override) :foreground gold)
 
     ;; Mode line
     (mode-line
@@ -203,7 +203,7 @@
     (ivy-current-match :background overlay :distant-foreground fg)
     (ivy-minibuffer-match-face-1 :foreground salt :background nil :weight 'bold)
     (ivy-minibuffer-match-face-2 :foreground rose :background nil :weight 'bold)
-    (ivy-minibuffer-match-face-3 :foreground cookie :background nil :weight 'bold)
+    (ivy-minibuffer-match-face-3 :foreground gold :background nil :weight 'bold)
     (ivy-minibuffer-match-face-4 :foreground rose :background nil :weight 'bold)
     (ivy-minibuffer-match-highlight :foreground magenta :weight 'bold)
     (ivy-posframe :background modeline-bg-alt)
@@ -218,7 +218,7 @@
     (org-block-background :background (doom-blend yellow bg 0.04))
     (org-block-begin-line :background (doom-blend yellow bg 0.08) :foreground comments :extend t)
     (org-block-end-line :background (doom-blend yellow bg 0.08) :foreground comments :extend t)
-    (org-level-1 :foreground cookie)
+    (org-level-1 :foreground gold)
     (org-level-2 :foreground salt)
     (org-level-3 :foreground sea)
     (org-level-4 :foreground highlightL)
