@@ -1,7 +1,7 @@
 #+title: Readme
 
 * *Plasma theme for emacs*
-[[./plasma.png][plasma]]
+[[./plasma.png][plasma.png]]
 [[./doom-plasma-theme.png][doom-plasma-theme.png]]
 [[./plasma-theme.png][plasma-theme.png]]
 * Motivation
