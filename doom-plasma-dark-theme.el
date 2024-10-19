@@ -48,7 +48,7 @@
 
 ;;; Theme definition
 (def-doom-theme doom-plasma-dark
-  "A dark port of Plasma cookies theme"
+  "A Plasma cookies theme"
 
   ;; Main theme colors
   (
@@ -94,7 +94,7 @@
     (base5          highlightH)
     (base6          highlightM)
     (base7          overlay)
-    (base8          base)
+    (base8          highlightL)
     (grey           muted)
     (red            love)
     (green          grass)
