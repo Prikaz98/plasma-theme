@@ -1,0 +1,7 @@
+#+title: Readme
+
+* *Plasma theme for emacs*
+[[./doom-plasma-theme.png][doom-plasma-theme.png]]
+[[./plasma-theme.png][plasma-theme.png]]
+* Motivation
+I like [[https://www.plazma.rs/en][Plasma]] cookies and I really like thier purple design.
