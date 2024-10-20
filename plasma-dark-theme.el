@@ -1,4 +1,4 @@
-;;; plasma-theme.el --- Description -*- lexical-binding: t; -*-
+;;; plasma-theme.el --- Plasma dark theme -*- lexical-binding: t; -*-
 ;;
 ;; Copyright (C) 2024 ivan
 ;;
@@ -14,7 +14,7 @@
 ;;
 ;;; Commentary:
 ;;
-;;  Description
+;;  Description:
 ;;  I ate too much cookies.
 ;;
 ;;; Code:
@@ -166,10 +166,10 @@
    `(font-lock-builtin-face ((t (:foreground ,plasma-dark-yellow+1))))
    `(font-lock-comment-face ((t (:foreground ,plasma-dark-green+1))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,plasma-dark-green+1))))
-   `(font-lock-constant-face ((t (:foreground ,plasma-dark-yellow+1))))
+   `(font-lock-constant-face ((t (:foreground ,plasma-dark-sea-salt))))
    `(font-lock-doc-face ((t (:foreground ,plasma-dark-green+1))))
    `(font-lock-doc-string-face ((t (:foreground ,plasma-dark-green+1))))
-   `(font-lock-function-name-face ((t (:foreground ,plasma-dark-yellow+1))))
+   `(font-lock-function-name-face ((t (:foreground ,plasma-dark-sea-wind))))
    `(font-lock-keyword-face ((t (:foreground ,plasma-dark-yellow+1 :bold t))))
    `(font-lock-preprocessor-face ((t (:foreground ,plasma-dark-sea-salt))))
    `(font-lock-reference-face ((t (:foreground ,plasma-dark-sea-wind))))
