@@ -12,7 +12,7 @@ I like [[https://www.plazma.rs/en][Plasma]] cookies and I really like thier purp
 ** Doom emacs
 Clone or download this repo
 1. make install to copy the themes to ~{{doom-user-dir}}/themes/~
-2. Update your config.el or ~(setq doom-theme 'doom-plasma-dark)~ and ~doom/reload-theme~
+2. Update your config.el ~(setq doom-theme 'doom-plasma-dark)~ and ~doom/reload-theme~
    or ~consult-theme~ by default ~SPC-h t~ and it should appear in selection list
 * TODOS
 - [ ] Do light version
