@@ -8,7 +8,16 @@
 I like [[https://www.plazma.rs/en][Plasma]] cookies and I really like thier purple design.
 * How to install
 ** Emacs
-//TODO
+Download the theme to your local directory. You can do it through ~git clone~ command:
+#+begin_src bash
+git clone https://github.com/Prikaz98/plasma-theme.git
+#+end_src
+Then add path to plasma-theme to custom-theme-load-path list - add the following to you emacs config file:
+#+begin_src emacs-lisp
+  (add-to-list 'custom-theme-load-path
+               "/path/to/plasma-theme/")
+#+end_src
+Use ~M-x customize-themes~ to change your current theme.
 ** Doom emacs
 Clone or download this repo
 1. make install to copy the themes to ~{{doom-user-dir}}/themes/~
