@@ -19,8 +19,11 @@ Then add path to plasma-theme to custom-theme-load-path list - add the following
 #+end_src
 Use ~M-x customize-themes~ to change your current theme.
 ** Doom emacs
-Clone or download this repo
-1. make install to copy the themes to ~{{doom-user-dir}}/themes/~
+Download the theme to your local directory. You can do it through ~git clone~ command:
+#+begin_src bash
+git clone https://github.com/Prikaz98/plasma-theme.git
+#+end_src
+1. Copy the themes to ~doom/user/dir/themes/~
 2. Update your config.el ~(setq doom-theme 'doom-plasma-dark)~ and ~doom/reload-theme~
    or ~consult-theme~ by default ~SPC-h t~ and it should appear in selection list
 * TODOS
